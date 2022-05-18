@@ -9,9 +9,10 @@ func main() {
             break
         } else {
             b := 1
+            fmt.Println(b)
             a = true
         }
     }
 
-    fmt.Println(b) // Variável b não foi declarada no escopo atual nem nos escopos superiores
+    //fmt.Println(b) // Variável b não foi declarada no escopo atual nem nos escopos superiores
 }
