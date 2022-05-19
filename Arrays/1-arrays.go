@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	a := [3]int{1, 2, 3} //array com tamanho fixo
-	b := []string{"Abacate", "Sedex", "Leite"} //sem tamanho fixo
+	b := []string{"Abacate", "Sedex", "Leite"} //sem tamanho fixo se tirba um slice
 	fmt.Println(a, b)
 
 	c := []int{200,300,400}
