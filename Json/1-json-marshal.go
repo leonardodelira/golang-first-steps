@@ -15,7 +15,7 @@ func main() {
 	person := Name{"Leonardo", "458.000.123-87"}
 	fmt.Println(person)
 
-	m, err := json.Marshal(person)
+	m, err := json.Marshal(person) //transforma a struct em json
 	if err != nil {
 		log.Println(err)
 	}
